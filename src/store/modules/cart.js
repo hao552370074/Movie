@@ -5,7 +5,6 @@ const cart = {
   },
   mutations: {
     bfget(state, a) {
-      // console.log(state,a);
       console.log(a);
     },
   },
