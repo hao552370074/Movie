@@ -4,7 +4,11 @@ const order = {
     a: 1,
   },
   mutations: {},
-  actions: {},
+  actions: {
+    bf2(a,b) {
+      console.log(444);
+    },
+  },
   getters: {
     orders(a,b) {
       console.log(222);

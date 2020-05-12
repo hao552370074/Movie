@@ -32,7 +32,7 @@ export default {
 
   methods: {},
   created() {
-    console.log(this.$store);
+    
   }
 };
 </script>

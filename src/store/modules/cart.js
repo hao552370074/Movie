@@ -7,17 +7,19 @@ const cart = {
     bfget(state, a) {
       // console.log(state,a);
       console.log(a);
-	  
     },
   },
   getters: {
-    aa(state, a,b,getters,) {
-	  console.log(state,a,b,getters, "getters");
-	  getters['order/orders']
+    aa(state, a, b, getters) {
+      console.log(state, a, b, getters, "getters");
+      getters["order/orders"];
     },
   },
   actions: {
-    bf() {},
+    bf(a, b) {
+      console.log(a, b, "6666666");
+      a.dispatch("order/bf2", 99999, { root: true });
+    },
   },
 };
 export default cart;

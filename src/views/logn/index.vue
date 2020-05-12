@@ -24,6 +24,7 @@ export default {
    created() {
      let aa=this.$store.getters
      this.$store.getters['cart/aa']
+     this.$store.dispatch('cart/bf',999)
     // console.log(this.$store.commit('cart/bfget','哈哈'),'1');
   }
 };
