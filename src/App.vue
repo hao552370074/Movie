@@ -13,7 +13,7 @@ import FootBar from '@components/FootBar.vue'
 export default {
   data(){
     return {
-    transitionName:'slide-left'
+    transitionName:'slide-left',
   }
   },
   components:{
